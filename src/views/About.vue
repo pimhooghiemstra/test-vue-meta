@@ -29,7 +29,7 @@ export default {
         },
         {
           property: 'og:image', 
-          content: `${this.cat ? `${this.catAPI}/${this.cat.id}` : ''}`
+          content: `${this.cat ? `${this.catAPI}/${this.cat.id}` : 'https://plint-sites.nl/images/diensten/webapps_378x234.jpg'}`
         }, 
       ]
     }
